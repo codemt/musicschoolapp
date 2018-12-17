@@ -229,19 +229,17 @@
                     <!-- Post -->
                     <article class="post">
                         <div class="post-thumbnail">
-                            <a href="standard-post.html"><img src="resources/images/home/standard-post-2.jpg" alt="Post thumbnail"></a>
+                            <a href="{{ route('guitarnotes') }}"><img src="{{ asset('images/guitarchart.jpg') }}" alt="Post thumbnail"></a>
                         </div>
                         <div class="post-title">
                             <h1><a href="{{ route('guitarnotes') }}">Guitar Notes</a></h1>
                         </div>
                         <div class="post-text">
                             <p>
-                                For many people who choose
-                                to stay on social media
-                                despite many people do
-                                immersion becomes a form
-                                therapy, inuring you from
-                                the sting over time.
+                                    Guitar Notes are similar to the notes on the keyboard.
+                                    A person can easily relate his keyboard with the guitar.
+                                    Using Tabulated Music , one can easily get used to reading 
+                                    and writing guitar notes.
                             </p>
                         </div>
                         <a class="read-more" href="{{ route('guitarnotes') }}"><img src="resources/icons/next.svg" alt="read more"></a>

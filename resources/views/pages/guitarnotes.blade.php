@@ -5,7 +5,7 @@
 
 <!-- Basic Page Needs
 ================================================== -->
-<title>Callie - Blog Template</title>
+<title>101 Musicals Academy of Music</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -33,7 +33,8 @@
         
         <!-- Logo -->
         <div class="logo">
-            <a href="index.html"><img src="resources/images/logo.png" alt="Callie"></a>
+            <a href="/">  101 Musicals Academy of Music</a>
+            {{-- <a href="index.html"><img src="resources/images/logo.png" alt="Callie"></a> --}}
         </div>
         <!-- Logo / End -->
 
@@ -131,7 +132,7 @@
             <!-- Story -->
             <div class="story-view-item" style="background-image: url( resources/images/story/story-thumb-1.jpg )">
                 <ul class="media">
-                    <li data-duration="3"><img src="resources/images/story/story-1.jpg" alt="story image"></li>
+                    <li data-duration="3"><img src="{{ asset('images/guitarchart.jpg') }}" alt="story image"></li>
                     <li data-duration="3"><img src="resources/images/story/story-2.jpg" alt="story image"></li>
                     <li data-duration="12"><video src="resources/images/story/story-3.mp4" controls></video></li>
                     <li data-duration="3"><img src="resources/images/story/story-4.jpg" alt="story image"></li>
@@ -223,8 +224,8 @@
 
                             <!-- Post Metas -->
                             <div class="post-metas">
-                                <span class="post-cat"><a href="#">Personal</a></span>
-                                <span class="post-author"><a href="#">Callie Jossie</a></span>
+                                <span class="post-cat"><a href="#">Guitar Notes</a></span>
+                                <span class="post-author"><a href="#">Mithilesh Tarkar</a></span>
                                 <span class="post-date"><time datetime="2018">03 Jun 2018</time></span>  
                             </div>
 
@@ -232,26 +233,27 @@
 
                         <!-- Post Thumbnail -->
                         <div class="post-thumbnail">
-                            <img src="resources/images/posts/single-post-1.jpg" alt="Post thumbnail">
+                            <img src="{{ asset('images/guitarchart.jpg') }}" alt="Post thumbnail">
                         </div>
                         
                         <!-- Post Text -->
                         <div class="post-text">
                           
                             <p>
-                                For many people who choose to stay on social media despite the people
-                                immersion becomes a form therapy, inuring you from sting over time.
-                                For many people who choose to stay on social me despite people
-                                immersion becomes a form therapy, do the you from sting over time.
+                                Guitar Notes are similar to the notes on the keyboard.
+                                A person can easily relate his keyboard with the guitar.
+                                Using Tabulated Music , one can easily get used to reading 
+                                and writing guitar notes.
                             </p>
                            
                             <blockquote>
                                 <p>
-                                   “The alternative to good design is always bad design.<br/>There is no such thing as no design.”
+                                   “Music is a necessity. After food, air, water and warmth<br/>music is the next necessity of life.”
                                 </p>
-                                <cite>Adam Judge</cite>
+                                <cite>Keith  Richards</cite>
                             </blockquote>
                            
+                            <!--  ARTICLE 2 
                             <h5>The Most Important Skill Nobody</h5>
                             
                             <p>
@@ -272,6 +274,7 @@
                                with our children on the living room sofa. 
                             </p>
                            
+                            -->
                        </div>
 
                         <!-- Post Footer -->
@@ -280,11 +283,11 @@
                             <!-- Post Tags -->
                             <div class="post-tags">
                                 <ul>
-                                    <li><span><a href="#">Fashion</a></span></li>
-                                    <li><span><a href="#">Travel</a></span></li>
-                                    <li><span><a href="#">Memories</a></span></li>
-                                    <li><span><a href="#">Daily</a></span></li>
-                                    <li><span><a href="#">Callie</a></span></li>
+                                    <li><span><a href="#">Guitar</a></span></li>
+                                    <li><span><a href="#">Notes</a></span></li>
+                                    <li><span><a href="#">Guitar Notes</a></span></li>
+                                    {{-- <li><span><a href="#">Daily</a></span></li>
+                                    <li><span><a href="#">Callie</a></span></li> --}}
                                 </ul>
                             </div>
                             <!-- Post Tags / End -->
@@ -295,7 +298,7 @@
                     <!-- Post Inner / End -->
 
                     <!-- Post Navigation -->
-                    <div class="post-navigation">
+                    {{-- <div class="post-navigation">
                         <div class="row">
                             
                             <!-- Prev Post -->
@@ -327,7 +330,7 @@
                             </a>
 
                         </div>      
-                    </div>
+                    </div> --}}
                     <!-- Post Navigation / End -->
 
                     <!-- Related Posts -->
@@ -338,7 +341,7 @@
                             <div class="related-post">
                                 <a href="#"><img src="resources/images/posts/related-post-1.jpg" alt="related post"></a>
                                 <div class="related-post-content">
-                                    <h4><a href="#">Coffee In The World</a></h4>
+                                    <h4><a href="#">What is Melody Guitar?</a></h4>
                                     <p>
                                        It’s about the remorse we feel while
                                        those after-dinner emails — our eyes
@@ -352,7 +355,7 @@
                             <div class="related-post">
                                 <a href="#"><img src="resources/images/posts/related-post-2.jpg" alt="related post"></a>
                                 <div class="related-post-content">
-                                    <h4><a href="#">our eyes thumbs</a></h4>
+                                    <h4><a href="#"> What is Rhythm Guitar?</a></h4>
                                     <p>
                                        It’s about the remorse we feel while
                                        those after-dinner emails — our eyes
@@ -366,7 +369,7 @@
                             <div class="related-post">
                                 <a href="#"><img src="resources/images/posts/related-post-3.jpg" alt="related post"></a>
                                 <div class="related-post-content">
-                                   <h4><a href="#">The Most Skill Nobody</a></h4>
+                                   <h4><a href="#">Is Bass Guitar for you ? </a></h4>
                                     <p>
                                        It’s about the remorse we feel while
                                        those after-dinner emails — our eyes
