@@ -15,5 +15,16 @@ Route::get('/', function () {
     return view('app');
 });
 
+// Guitar Notes
 Route::get('/guitarnotes','PagesController@guitarnotes')->name('guitarnotes');
+
+// Piano Notes
+
+Route::get('/pianonotes',function(){
+
+
+
+        return view('pages.piano.pianonotes');
+
+});
 

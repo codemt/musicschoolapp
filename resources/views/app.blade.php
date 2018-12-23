@@ -134,7 +134,7 @@
                 <ul class="media">
                     <li data-duration="3"><img src="{{ asset('images/guitarchart.jpg') }}" alt="story image"></li>
                     <li data-duration="3"><img src="{{ asset('images/guitarparts.jpg') }}" alt="story image"></li>
-                    <li data-duration="12"><video src="{{ asset('images/structure.jpg') }}" controls></video></li>
+                    <li data-duration="12"><img src="{{ asset('images/structure.jpg') }}"alt="story image"></li>
                     <li data-duration="3"><img src="{{ asset('images/structure2.jpg') }}" alt="story image"></li>
                 </ul>
             </div>
@@ -143,9 +143,9 @@
             <!-- Story -->
             <div class="story-view-item" style="background-image: url( resources/images/story/story-thumb-2.jpg )">
                 <ul class="media">
-                    <li data-duration="3"><img src="resources/images/story/story-1.jpg" alt="story image"></li>
-                    <li data-duration="3"><img src="resources/images/story/story-2.jpg" alt="story image"></li>
-                    <li data-duration="12"><video src="resources/images/story/story-3.mp4" controls></video></li>
+                    <li data-duration="3"><video src="{{ asset('videos/teresangyaara.mp4') }}" controls></video></li>
+                    <li data-duration="3"><video src="{{ asset('videos/banjaara.mp4') }}" controls></video></li>
+                    <li data-duration="12"><video src="{{ asset('videos/ludovico.mp4') }}" controls></video></li>
                     <li data-duration="3"><img src="resources/images/story/story-4.jpg" alt="story image"></li>
                 </ul>
             </div>
@@ -249,10 +249,10 @@
                     <!-- Post -->
                     <article class="post">
                         <div class="post-thumbnail">
-                            <a href="standard-post.html"><img src="resources/images/home/standard-post-3.jpg" alt="Post thumbnail"></a>
+                            <a href="/pianonotes"><img src="{{asset('images/pianonotes2.jpg') }}" alt="Post thumbnail"></a>
                         </div>
                         <div class="post-title">
-                            <h1><a href="standard-post.html">Piano Notes</a></h1>
+                            <h1><a href="/pianonotes">Piano Notes</a></h1>
                         </div>
                         <div class="post-text">
                             <p>
@@ -261,7 +261,7 @@
                                 have to tackle those challenges.
                             </p>
                         </div>
-                        <a class="read-more" href="standard-post.html"><img src="resources/icons/next.svg" alt="read more"></a>
+                        <a class="read-more" href="/pianonotes"><img src="resources/icons/next.svg" alt="read more"></a>
                     </article>
                     <!-- Post / End -->
 
@@ -303,7 +303,7 @@
 
                 <!-- Image Widget -->
                 <div class="widget image-widget">
-                    <img src="resources/images/logo-1.png" alt="logo">
+                    <img src="{{ asset('images/classlogo3.png') }}" alt="logo">
                 </div>
                 <!-- Image Widget / End -->
                 

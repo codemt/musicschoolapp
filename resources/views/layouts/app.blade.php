@@ -133,9 +133,9 @@
             <div class="story-view-item" style="background-image: url( resources/images/story/story-thumb-1.jpg )">
                 <ul class="media">
                     <li data-duration="3"><img src="{{ asset('images/guitarchart.jpg') }}" alt="story image"></li>
-                    <li data-duration="3"><img src="resources/images/story/story-2.jpg" alt="story image"></li>
-                    <li data-duration="12"><video src="resources/images/story/story-3.mp4" controls></video></li>
-                    <li data-duration="3"><img src="resources/images/story/story-4.jpg" alt="story image"></li>
+                    <li data-duration="3"><img src="{{ asset('images/guitarparts.jpg') }}" alt="story image"></li>
+                    <li data-duration="12"><img src="{{ asset('images/structure.jpg') }}"alt="story image"></li>
+                    <li data-duration="3"><img src="{{ asset('images/structure2.jpg') }}" alt="story image"></li>
                 </ul>
             </div>
             <!-- Story / End -->
@@ -143,9 +143,9 @@
             <!-- Story -->
             <div class="story-view-item" style="background-image: url( resources/images/story/story-thumb-2.jpg )">
                 <ul class="media">
-                    <li data-duration="3"><img src="resources/images/story/story-1.jpg" alt="story image"></li>
-                    <li data-duration="3"><img src="resources/images/story/story-2.jpg" alt="story image"></li>
-                    <li data-duration="12"><video src="resources/images/story/story-3.mp4" controls></video></li>
+                    <li data-duration="3"><video src="{{ asset('videos/teresangyaara.mp4') }}" controls></video></li>
+                    <li data-duration="3"><video src="{{ asset('videos/banjaara.mp4') }}" controls></video></li>
+                    <li data-duration="12"><video src="{{ asset('videos/ludovico.mp4') }}" controls></video></li>
                     <li data-duration="3"><img src="resources/images/story/story-4.jpg" alt="story image"></li>
                 </ul>
             </div>
