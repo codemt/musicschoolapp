@@ -146,7 +146,7 @@
                     <li data-duration="3"><video src="{{ asset('videos/teresangyaara.mp4') }}" controls></video></li>
                     <li data-duration="3"><video src="{{ asset('videos/banjaara.mp4') }}" controls></video></li>
                     <li data-duration="12"><video src="{{ asset('videos/ludovico.mp4') }}" controls></video></li>
-                    <li data-duration="3"><img src="resources/images/story/story-4.jpg" alt="story image"></li>
+                    <li data-duration="3"><video src="{{ asset('videos/palcover.mp4') }}" controls></video></li>
                 </ul>
             </div>
             <!-- Story / End -->
@@ -154,10 +154,10 @@
             <!-- Story -->
             <div class="story-view-item" style="background-image: url( resources/images/story/story-thumb-3.jpg )">
                 <ul class="media">
-                    <li data-duration="3"><img src="resources/images/story/story-1.jpg" alt="story image"></li>
-                    <li data-duration="3"><img src="resources/images/story/story-2.jpg" alt="story image"></li>
-                    <li data-duration="12"><video src="resources/images/story/story-3.mp4" controls></video></li>
-                    <li data-duration="3"><img src="resources/images/story/story-4.jpg" alt="story image"></li>
+                    <li data-duration="3"><video src="{{ asset('videos/ajeebdastan.mp4') }}" controls></video></li>
+                    <li data-duration="3"><video src="{{ asset('videos/faded.mp4') }}" controls></video></li>
+                    <li data-duration="12"><video src="{{ asset('videos/lastmohicans.mp4') }}" controls></video></li>
+                    <li data-duration="3"><video src="{{ asset('videos/judaai.mp4') }}" controls></video></li>
                 </ul>
             </div>
             <!-- Story / End -->
@@ -165,23 +165,23 @@
             <!-- Story -->
             <div class="story-view-item" style="background-image: url( resources/images/story/story-thumb-4.jpg )">
                 <ul class="media">
-                    <li data-duration="3"><img src="resources/images/story/story-1.jpg" alt="story image"></li>
-                    <li data-duration="3"><img src="resources/images/story/story-2.jpg" alt="story image"></li>
-                    <li data-duration="12"><video src="resources/images/story/story-3.mp4" controls></video></li>
-                    <li data-duration="3"><img src="resources/images/story/story-4.jpg" alt="story image"></li>
+                    <li data-duration="3"><video src="{{ asset('videos/houseofcards.mp4') }}" controls></video></li>
+                    <li data-duration="3"><video src="{{ asset('videos/yirumacover.mp4') }}" controls></video></li>
+                    <li data-duration="12"><video src="{{ asset('videos/gamethrones.mp4') }}" controls></video></li>
+                    <li data-duration="3"><video src="{{ asset('videos/souravdrum.mp4') }}" controls></video></li>
                 </ul>
             </div>
             <!-- Story / End -->
 
             <!-- Story -->
-            <div class="story-view-item" style="background-image: url( resources/images/story/story-thumb-5.jpg )">
+            {{-- <div class="story-view-item" style="background-image: url( resources/images/story/story-thumb-5.jpg )">
                 <ul class="media">
                     <li data-duration="3"><img src="resources/images/story/story-1.jpg" alt="story image"></li>
                     <li data-duration="3"><img src="resources/images/story/story-2.jpg" alt="story image"></li>
                     <li data-duration="12"><video src="resources/images/story/story-3.mp4" controls></video></li>
                     <li data-duration="3"><img src="resources/images/story/story-4.jpg" alt="story image"></li>
                 </ul>
-            </div>
+            </div> --}}
             <!-- Story / End -->
 
         </div>
