@@ -205,9 +205,9 @@
                     <!-- Post -->
                     <article class="post sticky">
                         <div class="post-title">
-                            <h1><a href="/theme/callie/standard-post.html">Top Guitar Tracks to Play on the Guitar </a></h1>
+                            <h1><a href="/">Top Guitar Tracks to Play on the Guitar </a></h1>
                         </div>
-                        <a class="read-more" href="standard-post.html"><img src="resources/icons/next.svg" alt="read more"></a>
+                        <a class="read-more" href="/"><img src="resources/icons/next.svg" alt="read more"></a>
                     </article>
                     <!-- Post / End -->
 
@@ -220,9 +220,9 @@
                             </span>
                         </a>
                         <div class="post-title">
-                            <h1><a href="standard-post.html">Learning Path to becoming a Music Composer?</a></h1>
+                            <h1><a href="/">Learning Path to becoming a Music Composer?</a></h1>
                         </div>
-                        <a class="read-more" href="standard-post.html"><img src="resources/icons/next.svg" alt="read more"></a>
+                        <a class="read-more" href="/"><img src="resources/icons/next.svg" alt="read more"></a>
                     </article>
                     <!-- Post / End -->
 
@@ -339,9 +339,9 @@
                 <!-- Post Widget -->
                 <div class="widget post-widget">
                     <div class="post-title">
-                        <h1><a href="standard-post.html">Benefits of Learning Music</a></h1>
+                        <h1><a href="/">Benefits of Learning Music</a></h1>
                     </div>
-                    <a class="read-more" href="standard-post.html"><img src="resources/icons/next.svg" alt="read more"></a>
+                    <a class="read-more" href="/"><img src="resources/icons/next.svg" alt="read more"></a>
                 </div>
                 <!-- Post Widget / End -->
 
@@ -463,21 +463,21 @@
                 <!-- Post Widget -->
                 <div class="widget post-widget">
                     <div class="post-title">
-                        <h1><a href="standard-post.html">Music Theory </a></h1>
+                        <h1><a href="/">Music Theory </a></h1>
                     </div>
                     <div class="post-thumbnail">
-                        <a href="standard-post.html"><img src="resources/images/home/standard-post-4.jpg" alt="Post thumbnail"></a>
+                        <a href="/"><img src="resources/images/home/standard-post-4.jpg" alt="Post thumbnail"></a>
                     </div>
                 </div>
                 <!-- Post Widget / End -->
 
                 <!-- Mailchimp Widget -->
-                <div class="widget widget_mc4wp_form_widget">
+                {{-- <div class="widget widget_mc4wp_form_widget">
                     <form class="mc4wp-form">
                         <input type="text" placeholder="SUBSCRIBE STORIES">
                         <button type="submit"><img src="resources/icons/next.svg" alt="submit"></button>
                     </form>
-                </div>
+                </div> --}}
                 <!-- Mailchimp Widget / End -->
 
             </aside>
