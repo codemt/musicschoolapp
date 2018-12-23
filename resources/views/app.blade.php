@@ -132,10 +132,10 @@
             <!-- Story -->
             <div class="story-view-item" style="background-image: url( resources/images/story/story-thumb-1.jpg )">
                 <ul class="media">
-                    <li data-duration="3"><img src="resources/images/story/story-1.jpg" alt="story image"></li>
-                    <li data-duration="3"><img src="resources/images/story/story-2.jpg" alt="story image"></li>
-                    <li data-duration="12"><video src="resources/images/story/story-3.mp4" controls></video></li>
-                    <li data-duration="3"><img src="resources/images/story/story-4.jpg" alt="story image"></li>
+                    <li data-duration="3"><img src="{{ asset('images/guitarchart.jpg') }}" alt="story image"></li>
+                    <li data-duration="3"><img src="{{ asset('images/guitarparts.jpg') }}" alt="story image"></li>
+                    <li data-duration="12"><video src="{{ asset('images/structure.jpg') }}" controls></video></li>
+                    <li data-duration="3"><img src="{{ asset('images/structure2.jpg') }}" alt="story image"></li>
                 </ul>
             </div>
             <!-- Story / End -->
@@ -205,7 +205,7 @@
                     <!-- Post -->
                     <article class="post sticky">
                         <div class="post-title">
-                            <h1><a href="/theme/callie/standard-post.html">Just for a moment and also result of depression</a></h1>
+                            <h1><a href="/theme/callie/standard-post.html">Top Guitar Tracks to Play on the Guitar </a></h1>
                         </div>
                         <a class="read-more" href="standard-post.html"><img src="resources/icons/next.svg" alt="read more"></a>
                     </article>
@@ -220,7 +220,7 @@
                             </span>
                         </a>
                         <div class="post-title">
-                            <h1><a href="standard-post.html">Just for a moment and also result of depression</a></h1>
+                            <h1><a href="standard-post.html">Learning Path to becoming a Music Composer?</a></h1>
                         </div>
                         <a class="read-more" href="standard-post.html"><img src="resources/icons/next.svg" alt="read more"></a>
                     </article>
@@ -252,16 +252,13 @@
                             <a href="standard-post.html"><img src="resources/images/home/standard-post-3.jpg" alt="Post thumbnail"></a>
                         </div>
                         <div class="post-title">
-                            <h1><a href="standard-post.html">Option: Because Silicon Valley</a></h1>
+                            <h1><a href="standard-post.html">Piano Notes</a></h1>
                         </div>
                         <div class="post-text">
                             <p>
-                                For many people who choose
-                                to stay on social media
-                                despite many people do
-                                immersion becomes a form
-                                therapy, inuring you from
-                                the sting over time.
+                                Piano is much easier to begin , but its not easy to master. The Learning Curve
+                                is Deep and the more deeper you go the more Difficulties one will face , and one will
+                                have to tackle those challenges.
                             </p>
                         </div>
                         <a class="read-more" href="standard-post.html"><img src="resources/icons/next.svg" alt="read more"></a>
@@ -277,7 +274,7 @@
                             </span>
                         </a>
                         <div class="post-title">
-                            <h1><a href="standard-post.html">Just for a moment and also result of depression</a></h1>
+                            <h1><a href="standard-post.html">Why Practicing Scales is Important?</a></h1>
                         </div>
                         <a class="read-more" href="standard-post.html"><img src="resources/icons/next.svg" alt="read more"></a>
                     </article>
@@ -289,7 +286,7 @@
                             <a href="standard-post.html"><img src="resources/images/home/standard-post-5.jpg" alt="Post thumbnail"></a>
                         </div>
                         <div class="post-title">
-                            <h1><a href="standard-post.html">Engaland National Park For Visit</a></h1>
+                            <h1><a href="standard-post.html">Octaves on the Piano</a></h1>
                         </div>
                         <a class="read-more" href="standard-post.html"><img src="resources/icons/next.svg" alt="read more"></a>
                     </article>
@@ -342,7 +339,7 @@
                 <!-- Post Widget -->
                 <div class="widget post-widget">
                     <div class="post-title">
-                        <h1><a href="standard-post.html">Just for a moment and also result of depression</a></h1>
+                        <h1><a href="standard-post.html">Benefits of Learning Music</a></h1>
                     </div>
                     <a class="read-more" href="standard-post.html"><img src="resources/icons/next.svg" alt="read more"></a>
                 </div>
@@ -466,7 +463,7 @@
                 <!-- Post Widget -->
                 <div class="widget post-widget">
                     <div class="post-title">
-                        <h1><a href="standard-post.html">Just for a moment and also result of depression</a></h1>
+                        <h1><a href="standard-post.html">Music Theory </a></h1>
                     </div>
                     <div class="post-thumbnail">
                         <a href="standard-post.html"><img src="resources/images/home/standard-post-4.jpg" alt="Post thumbnail"></a>

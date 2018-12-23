@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('/guitarnotes','PagesController@guitarnotes')->name('guitarnotes');
+

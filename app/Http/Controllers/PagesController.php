@@ -11,7 +11,7 @@ class PagesController extends Controller
     public function guitarnotes(){
 
 
-                return view('pages.guitarnotes');
+                return view('pages.guitar.guitarnotes');
 
     }
 }
