@@ -222,7 +222,7 @@
                 <!-- Post Widget -->
                 <div class="widget post-widget">
                     <div class="post-title">
-                        <h1><a href="standard-post.html">Just for a moment and also result of depression</a></h1>
+                        <h1><a href="standard-post.html">Benefits of Learning Music</a></h1>
                     </div>
                     <div class="post-thumbnail">
                         <a href="standard-post.html"><img src="resources/images/home/standard-post-4.jpg" alt=""></a>
