@@ -28,3 +28,12 @@ Route::get('/pianonotes',function(){
 
 });
 
+Route::get('/about',function(){
+
+
+
+    return view('pages.about.about');
+
+});
+Route::get('contact','ContactController@index')->name('contact');
+

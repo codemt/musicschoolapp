@@ -48,13 +48,13 @@
             <!-- Main Menu -->
             <ul class="main-menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#">Posts</a>
+                <li><a href="/about">About</a></li>
+                <li><a href="#">Video Lessons</a>
                     <ul>
-                        <li><a href="standard-post.html">Standard Post</a></li>
-                        <li><a href="video-post.html">Video Post</a></li>
-                        <li><a href="gallery-post.html">Gallery Post</a></li>
-                        <li><a href="fullwidth-post.html">Full Width Post</a></li>
+                        <li><a href="/">Standard Post</a></li>  
+                        <li><a href="/">Video Post</a></li>
+                        <li><a href="/">Gallery Post</a></li>
+                        <li><a href="/">Full Width Post</a></li>
                     </ul>
                 </li>
                 <li><a href="about.html">Photo's</a></li>
@@ -499,7 +499,8 @@
 
                 <!-- Image Widget -->
                 <div class="widget image-widget">
-                    <img src="resources/images/logo-2.png" alt="logo">
+                        <img src="{{ asset('images/classlogo3.png' ) }}" alt="logo">
+                    {{-- <img src="resources/images/logo-2.png" alt="logo"> --}}
                 </div>
                 <!-- Image Widget / End -->
 
