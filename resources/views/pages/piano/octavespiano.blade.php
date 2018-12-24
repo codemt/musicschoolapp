@@ -19,7 +19,7 @@
 
                             <!-- Post Title -->
                             <div class="post-title">
-                                <h1>Notes on the Guitar</h1>
+                                <h1>Octaves on the Piano</h1>
                             </div>
 
                             <!-- Post Share -->
@@ -33,7 +33,7 @@
 
                             <!-- Post Metas -->
                             <div class="post-metas">
-                                <span class="post-cat"><a href="#">Guitar Notes</a></span>
+                                <span class="post-cat"><a href="#">Piano Octaves</a></span>
                                 <span class="post-author"><a href="#">Mithilesh Tarkar</a></span>
                                 <span class="post-date"><time datetime="2018">03 Jun 2018</time></span>  
                             </div>
@@ -42,17 +42,15 @@
 
                         <!-- Post Thumbnail -->
                         <div class="post-thumbnail">
-                            <img src="{{ asset('images/guitarchart.jpg') }}" alt="Post thumbnail">
+                            <img src="{{ asset('images/octaves2.png') }}" alt="Post thumbnail">
                         </div>
                         
                         <!-- Post Text -->
                         <div class="post-text">
                           
                             <p>
-                                Guitar Notes are similar to the notes on the keyboard.
-                                A person can easily relate his keyboard with the guitar.
-                                Using Tabulated Music , one can easily get used to reading 
-                                and writing guitar notes.
+                                Learning Octaves are necessary to learn to change the pitch/tone of the music you 
+                                are playing. Octaves are needed to change tone of the musical notes to higher and lower.
                             </p>
                            
                             <blockquote>
