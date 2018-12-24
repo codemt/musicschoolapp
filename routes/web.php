@@ -23,7 +23,6 @@ Route::get('/guitarnotes','PagesController@guitarnotes')->name('guitarnotes');
 Route::get('/pianonotes',function(){
 
 
-
         return view('pages.piano.pianonotes');
 
 });
@@ -35,5 +34,14 @@ Route::get('/about',function(){
     return view('pages.about.about');
 
 });
+// Route::get('/photos',function(){
+
+
+
+//     return view('pages.photos.photos');
+
+// });
+
+
 Route::get('contact','ContactController@index')->name('contact');
 

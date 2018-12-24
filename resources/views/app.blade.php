@@ -51,13 +51,13 @@
                 <li><a href="/about">About</a></li>
                 <li><a href="#">Video Lessons</a>
                     <ul>
-                        <li><a href="/">Standard Post</a></li>  
-                        <li><a href="/">Video Post</a></li>
-                        <li><a href="/">Gallery Post</a></li>
-                        <li><a href="/">Full Width Post</a></li>
+                            <li><a href="/">Guitar Basics </a></li>
+                            <li><a href="/"> Bollywood Songs</a></li>
+                            <li><a href="/"> Hollywood Songs</a></li>
+                            <li><a href="/">Piano Songs</a></li>
                     </ul>
                 </li>
-                <li><a href="about.html">Photo's</a></li>
+                {{-- <li><a href="/photos">Photo's</a></li> --}}
                 <li><a href="contact.html">Contact</a></li>
             </ul>
             <!-- Main Menu / End -->

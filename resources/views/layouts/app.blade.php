@@ -57,8 +57,8 @@
                         <li><a href="/">Piano Songs</a></li>
                     </ul>
                 </li>
-                <li><a href="about.html">Photo's</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                {{-- <li><a href="/photos">Photo's</a></li> --}}
+                <li><a href="/contact">Contact</a></li>
             </ul>
             <!-- Main Menu / End -->
 
