@@ -34,6 +34,14 @@ Route::get('/about',function(){
     return view('pages.about.about');
 
 });
+
+Route::get('/piano-octaves',function(){
+
+
+
+    return view('pages.piano.octavespiano');
+
+});
 // Route::get('/photos',function(){
 
 
