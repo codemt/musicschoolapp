@@ -499,7 +499,7 @@
 
                 <!-- Image Widget -->
                 <div class="widget image-widget">
-                        <img src="{{ asset('images/classlogo3.png' ) }}" alt="logo">
+                        <img src="{{ asset('images/logo4.png' ) }}" alt="logo">
                     {{-- <img src="resources/images/logo-2.png" alt="logo"> --}}
                 </div>
                 <!-- Image Widget / End -->
