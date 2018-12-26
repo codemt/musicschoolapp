@@ -19,7 +19,7 @@
 
                             <!-- Post Title -->
                             <div class="post-title">
-                                <h1>Notes on the Guitar</h1>
+                                <h1> Rhythm Guitar </h1>
                             </div>
 
                             <!-- Post Share -->
@@ -33,7 +33,7 @@
 
                             <!-- Post Metas -->
                             <div class="post-metas">
-                                <span class="post-cat"><a href="#">Guitar Notes</a></span>
+                                <span class="post-cat"><a href="#">Rhythm Guitar</a></span>
                                 <span class="post-author"><a href="#">Mithilesh Tarkar</a></span>
                                 <span class="post-date"><time datetime="2018">03 Jun 2018</time></span>  
                             </div>
@@ -42,17 +42,20 @@
 
                         <!-- Post Thumbnail -->
                         <div class="post-thumbnail">
-                            <img src="{{ asset('images/guitarchart.jpg') }}" alt="Post thumbnail">
+                            <img src="{{ asset('images/rhythmguitar.jpg') }}" alt="Post thumbnail">
                         </div>
                         
                         <!-- Post Text -->
                         <div class="post-text">
                           
                             <p>
-                                Guitar Notes are similar to the notes on the keyboard.
-                                A person can easily relate his keyboard with the guitar.
-                                Using Tabulated Music , one can easily get used to reading 
-                                and writing guitar notes.
+                                Rhythm can be played on any guitar except
+                                the bass guitar. Basically playing rhythm 
+                                is playing chord to chord i.e playing 3 or 4 
+                                notes together. This Style creates the tempo and 
+                                gives The song a beat. The Rhythm patterns will 
+                                vary from song to Song depending on the types of 
+                                song and the mood of the Player.
                             </p>
                            
                             <blockquote>
@@ -148,11 +151,11 @@
                             
                             <!-- Related Post 1 -->
                             <div class="related-post">
-                                <a href="/leadguitar"><img src="{{ asset('images/leadguitar.jpg') }}" alt="related post"></a>
+                                <a href="#"><img src="{{ asset('images/rhythmguitar.jpg') }}" alt="related post"></a>
                                 <div class="related-post-content">
-                                    <h4><a href="/leadguitar">What is Melody/Lead Guitar?</a></h4>
+                                    <h4><a href="/leadguitar">What is Lead Guitar?</a></h4>
                                     <p>
-                                       It’s about the remorse we feel while
+                                        It’s about the remorse we feel while
                                        those after-dinner emails — our eyes
                                        thumbs locked into while responding.
                                     </p>
@@ -162,9 +165,9 @@
 
                             <!-- Related Post 2 -->
                             <div class="related-post">
-                                <a href="/rhythmguitar"><img src="{{ asset('images/rhythmguitar.jpg') }}" alt="related post"></a>
+                                <a href="#"><img src="{{ asset('images/rhythmguitar.jpg') }}" alt="related post"></a>
                                 <div class="related-post-content">
-                                    <h4><a href="/rhythmguitar"> What is Rhythm Guitar?</a></h4>
+                                    <h4><a href="#"> What is Rhythm Guitar?</a></h4>
                                     <p>
                                        It’s about the remorse we feel while
                                        those after-dinner emails — our eyes

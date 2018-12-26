@@ -19,7 +19,7 @@
 
                             <!-- Post Title -->
                             <div class="post-title">
-                                <h1>Notes on the Guitar</h1>
+                                <h1>What is Lead Guitar?</h1>
                             </div>
 
                             <!-- Post Share -->
@@ -33,7 +33,7 @@
 
                             <!-- Post Metas -->
                             <div class="post-metas">
-                                <span class="post-cat"><a href="#">Guitar Notes</a></span>
+                                <span class="post-cat"><a href="#">Lead/Melody Guitar</a></span>
                                 <span class="post-author"><a href="#">Mithilesh Tarkar</a></span>
                                 <span class="post-date"><time datetime="2018">03 Jun 2018</time></span>  
                             </div>
@@ -42,17 +42,16 @@
 
                         <!-- Post Thumbnail -->
                         <div class="post-thumbnail">
-                            <img src="{{ asset('images/guitarchart.jpg') }}" alt="Post thumbnail">
+                            <img src="{{ asset('images/leadguitar.jpg') }}" alt="Post thumbnail">
                         </div>
                         
                         <!-- Post Text -->
                         <div class="post-text">
                           
                             <p>
-                                Guitar Notes are similar to the notes on the keyboard.
-                                A person can easily relate his keyboard with the guitar.
-                                Using Tabulated Music , one can easily get used to reading 
-                                and writing guitar notes.
+                                The Lead Guitarist plays either the melody along with 
+                                the full-ins(wherever required) or an improvised melody.
+                                Lead is Playing Note by Note.
                             </p>
                            
                             <blockquote>
@@ -164,7 +163,7 @@
                             <div class="related-post">
                                 <a href="/rhythmguitar"><img src="{{ asset('images/rhythmguitar.jpg') }}" alt="related post"></a>
                                 <div class="related-post-content">
-                                    <h4><a href="/rhythmguitar"> What is Rhythm Guitar?</a></h4>
+                                    <h4><a href="/rhyhtmguitar"> What is Rhythm Guitar?</a></h4>
                                     <p>
                                        It’s about the remorse we feel while
                                        those after-dinner emails — our eyes

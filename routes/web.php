@@ -42,6 +42,23 @@ Route::get('/piano-octaves',function(){
     return view('pages.piano.octavespiano');
 
 });
+
+Route::get('/leadguitar',function(){
+
+
+
+    return view('pages.guitar.leadguitar');
+
+});
+Route::get('/rhythmguitar',function(){
+
+
+
+    return view('pages.guitar.rhythmguitar');
+
+
+});
+
 // Route::get('/photos',function(){
 
 
